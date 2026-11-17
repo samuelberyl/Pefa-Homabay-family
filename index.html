@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PEFA HOMABAY FAMILY ❤️ - All Our People</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0f0f1a;color:white}
+header{background:linear-gradient(135deg,#ff6600,#ffcc00,#00a651);color:#111;padding:18px;text-align:center;position:sticky;top:0;z-index:20}
+header h1{font-size:26px;line-height:1.1}
+header p{font-weight:bold;font-size:13px;margin-top:4px}
+.bishop-banner{margin:14px;background:linear-gradient(135deg,#ffcc00,#ff6600);color:#111;border-radius:16px;padding:16px;display:flex;gap:14px;align-items:center}
+.bishop-banner .ava{width:75px;height:75px;background:#111;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:38px;flex-shrink:0}
+.bishop-banner button{background:#111;color:white;border:none;padding:10px 18px;border-radius:20px;font-weight:bold;cursor:pointer;margin-top:8px}
+.memorial{background:#111;border:2px solid #ffcc00;margin:14px;border-radius:16px;padding:16px;text-align:center}
+.memorial .candle{font-size:50px}
+.stats{display:flex;justify-content:center;gap:10px;padding:0 14px 14px;flex-wrap:wrap}
+.stats div{background:#1a1a2e;padding:12px 14px;border-radius:12px;text-align:center;min-width:85px;border:1px solid #333}
+.stats div b{font-size:20px;color:#ffcc00;display:block}
+.stats div span{font-size:11px;color:#aaa}
+.search{margin:0 14px 12px;background:#1a1a2e;border-radius:25px;padding:11px 16px;display:flex;gap:8px;border:1px solid #333}
+.search input{background:none;border:none;outline:none;color:white;flex:1;font-size:15px}
+.filters{display:flex;gap:8px;overflow-x:auto;padding:0 14px 14px;scrollbar-width:none}
+.filters::-webkit-scrollbar{display:none}
+.filter{flex-shrink:0;background:#1a1a2e;padding:9px 15px;border-radius:20px;font-weight:bold;font-size:13px;cursor:pointer;border:2px solid transparent;white-space:nowrap}
+.filter.active{background:#ffcc00;color:#111}
+.section{padding:0 14px 8px;display:flex;justify-content:space-between;align-items:center}
+.section h2{font-size:18px}
+.section span{color:#aaa;font-size:12px}
+.grid{padding:0 14px 100px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#1a1a2e;border-radius:16px;padding:14px;text-align:center;border:2px solid #222;cursor:pointer;position:relative}
+.card:hover{border-color:#ffcc00;transform:translateY(-3px)}
+.card.late{border-color:#ffcc00;background:#2a2a1a}
+.card.late::after{content:"🕊️ IN LOVING MEMORY";position:absolute;top:8px;right:8px;left:8px;background:#ffcc00;color:#111;font-size:10px;font-weight:bold;padding:4px;border-radius:10px}
+.card.new::after{content:"✨ NEW";position:absolute;top:8px;right:8px;background:#00ff88;color:#111;font-size:10px;font-weight:bold;padding:3px 8px;border-radius:10px}
+.card.director{border-color:#ff6600}
+.card.bishop{border-color:#ffcc00;background:#2a2500}
+.card.md{border-color:#00a651}
+.card .ava{width:68px;height:68px;border-radius:50%;margin:auto;display:flex;align-items:center;justify-content:center;font-size:30px}
+.card h3{font-size:14px;margin:8px 0 3px;line-height:1.2}
+.card .role{color:#ffcc00;font-size:12px;font-weight:bold}
+.card .skill{color:#aaa;font-size:11px;margin:4px 0;line-height:1.4}
+.card .tag{font-size:11px;background:#222;padding:5px 10px;border-radius:10px;display:inline-block}
+.card button{width:100%;background:#333;color:white;border:none;padding:9px;border-radius:8px;font-weight:bold;cursor:pointer;margin-top:8px}
+.card button:hover{background:#ffcc00;color:#111}
+.bottom-nav{position:fixed;bottom:0;left:0;width:100%;background:#111;border-top:1px solid #333;padding:10px;display:flex;justify-content:space-around;font-size:11px;z-index:30}
+.bottom-nav div{text-align:center;cursor:pointer;color:#aaa}
+.bottom-nav div.active{color:#ffcc00}
+.bottom-nav div span{display:block;font-size:22px}
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:99;justify-content:center;align-items:flex-end}
+.modalBox{background:#1a1a2e;width:100%;max-width:500px;border-radius:20px 20px 0 0;padding:20px;max-height:88vh;overflow-y:auto;text-align:center}
+.modalBox input,.modalBox select{width:100%;padding:11px;border-radius:8px;border:1px solid #333;background:#222;color:white;margin:8px 0;outline:none}
+.modalBox button{padding:11px 18px;border-radius:10px;border:none;font-weight:bold;cursor:pointer;margin:5px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(3,1fr);max-width:1000px;margin:auto}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>⛪ PEFA HOMABAY FAMILY ❤️</h1>
+<p>PEFA Cathedral Homabay • Near Soko Mjinga • Taphy Coders Club • All Our People</p>
+</header>
+
+<!-- BISHOP JACK BANNER -->
+<div class="bishop-banner">
+<div class="ava">⛪</div>
+<div><h2 style="font-size:19px">Bishop Jack Ayieko</h2><p style="font-size:13px;margin:4px 0">Convener • PEFA Cathedral Homabay • Bishop</p><p style="font-size:12px">🙏 The Church: A Light in the World - Matt 5:14 • End Year Convention 23-29 Nov 2026</p><button onclick="openProfile(0)">View Bishop Profile →</button></div>
+</div>
+
+<div class="memorial">
+<div class="candle">🕯️</div>
+<h2>In Loving Memory</h2>
+<h3 style="color:#ffcc00;margin:6px 0">MD Ann 🕊️</h3>
+<p style="color:#ccc;font-size:13px;line-height:1.6">We remember MD Ann with love. She served PEFA Homabay with faith, kindness and dedication.<br>She will always be in our hearts. Gone but never forgotten. ❤️<br><i>"Precious in the sight of the Lord is the death of His saints" - Psalm 116:15</i></p>
+<button style="background:#ffcc00;border:none;padding:9px 18px;border-radius:20px;font-weight:bold;cursor:pointer;margin-top:10px" onclick="alert('🕯️ Rest In Peace MD Ann. We love you. We miss you. ❤️')">🕯️ Light A Candle</button>
+</div>
+
+<div class="stats">
+<div><b id="totalPeople">30</b><span>PEOPLE</span></div>
+<div><b>13</b><span>LEADERS & STAFF</span></div>
+<div><b>17</b><span>CODERS</span></div>
+<div><b>⭐ 4.9</b><span>FAMILY RATING</span></div>
+</div>
+
+<div class="search">🔍 <input type="text" id="searchInput" placeholder="Search person... e.g. Bishop Jack, Faith, Wesley, Taphy..." oninput="doSearch()"></div>
+
+<div class="filters" id="filters">
+<div class="filter active" onclick="setFilter('All',this)">👥 All (30)</div>
+<div class="filter" onclick="setFilter('Leadership',this)">👑 Leadership</div>
+<div class="filter" onclick="setFilter('MD',this)">💚 MDs</div>
+<div class="filter" onclick="setFilter('Teacher',this)">📚 Teachers</div>
+<div class="filter" onclick="setFilter('Support',this)">🍳 Support</div>
+<div class="filter" onclick="setFilter('Coder',this)">👨‍💻 Coders</div>
+</div>
+
+<div class="section"><h2>👥 Our Family - <span id="memberCount">30</span></h2><span>Tap to view profile</span></div>
+<div class="grid" id="peopleGrid"></div>
+
+<div class="bottom-nav">
+<div class="active"><span>👥</span>Family</div>
+<div onclick="alert('PEFA Cathedral Homabay\n\nBishop: Bishop Jack Ayieko\nSunday: 1st 7-10 AM, 2nd 10:30-12:30 PM\nNear Soko Mjinga, Homabay Town\nEnd Year Convention: 23-29 Nov 2026')"><span>⛪</span>Church</div>
+<div onclick="openAdd()"><span>➕</span>Add</div>
+<div onclick="alert('Leaderboard:\n1. Bishop Jack Ayieko - Bishop\n2. Taphy Samson - Founder\n3. Uncle Nicholas - Project Director\n4. Wesley - Coding Teacher')"><span>🏆</span>Leaders</div>
+<div onclick="alert('WhatsApp Group: PEFA Homabay Family\n\nLast: Taphy: Website ready! 🔥')"><span>💬</span>Chat</div>
+</div>
+
+<div class="modal" id="profileModal">
+<div class="modalBox"><div id="profileContent"></div><button style="background:#333;color:white;width:100%" onclick="closeProfile()">Close ✕</button></div>
+</div>
+
+<div class="modal" id="addModal">
+<div class="modalBox">
+<h2>➕ Add Person</h2>
+<input type="text" id="newName" placeholder="Full Name">
+<select id="newRole"><option>Teacher</option><option>MD</option><option>Coder</option><option>Support</option><option>Leadership</option></select>
+<input type="text" id="newJob" placeholder="Job e.g. Coding Teacher">
+<button style="background:#ffcc00;color:#111;width:100%;padding:13px" onclick="addPerson()">Add Person ✅</button>
+<button style="background:#333;color:white" onclick="closeAdd()">Cancel</button>
+<p id="addResult" style="color:#00ff88;font-weight:bold;margin-top:8px"></p>
+</div>
+</div>
+
+<script>
+let people=[
+/* BISHOP JACK - ADDED */
+{name:'Bishop Jack Ayieko',role:'Bishop • Convener',job:'Bishop • PEFA Cathedral Homabay • Convener',points:2000,ava:'⛪',color:'#ffcc00',cat:'Leadership',isBishop:true,bio:'Bishop Jack Ayieko - Our Bishop and Convener of PEFA Cathedral Homabay. He leads us with faith, wisdom and love. Theme: The Church: A Light in the World - Matthew 5:14. Convener of End Year Convention 23-29 Nov 2026: Obeying God Is Choosing Enjoyable Life.'},
+/* LEADERSHIP & STAFF */
+{name:'Uncle Nicholas',role:'Project Director',job:'Project Director • Leads All Projects',points:1500,ava:'👑',color:'#ff6600',cat:'Leadership',bio:'Our Project Director. He plans everything, guides the team and makes sure all projects succeed. Respected by everyone in PEFA Homabay family.'},
+{name:'MD Faith Ondoro',role:'MD • Managing Director',job:'MD • Leader & Mentor',points:1400,ava:'💚',color:'#00a651',cat:'MD',bio:'MD Faith Ondoro. A strong leader, mother to us all. Guides PEFA Homabay with love, faith and wisdom.'},
+{name:'MD Pauline',role:'MD • Managing Director',job:'MD • Leader',points:1350,ava:'💚',color:'#00a651',cat:'MD',bio:'MD Pauline. Kind, caring and strong in faith. Helps manage PEFA Homabay family and supports everyone.'},
+{name:'MD Ann',role:'MD • In Loving Memory 🕊️',job:'MD • Forever In Our Hearts',points:9999,ava:'🕊️',color:'#ffcc00',cat:'MD',isLate:true,bio:'MD Ann. Gone but never forgotten. She served with love, faith and dedication. We will always remember her. Rest in Peace. ❤️'},
+{name:'Wesley',role:'Coding Teacher',job:'Coding Teacher • Teaches HTML, CSS, JS',points:1200,ava:'👨‍🏫',color:'#563d7c',cat:'Teacher',bio:'Our Coding Teacher! He teaches us coding - HTML, CSS, JavaScript. Patient, smart and funny. He made us all coders!'},
+{name:'Teacher Victor',role:'Teacher & Accountant',job:'Teacher • Accountant • Handles Money',points:1100,ava:'🧮',color:'#e34c26',cat:'Teacher',bio:'Teacher Victor - Our Accountant! He teaches and also handles all accounts and money for PEFA Homabay. Very trusted and smart.'},
+{name:'Teacher Modester',role:'Teacher',job:'Teacher • Teaches & Cares',points:1000,ava:'📚',color:'#d62976',cat:'Teacher',bio:'Teacher Modester. Kind teacher who cares for every child. Teaches with love and patience.'},
+{name:'Teacher Alice',role:'Teacher',job:'Teacher • Teaches & Cares',points:980,ava:'🍎',color:'#f1e05a',cat:'Teacher',bio:'Teacher Alice. Loving teacher. Makes learning fun for everyone.'},
+{name:'Mr Charles',role:'Teacher / Staff',job:'Staff • Teacher',points:950,ava:'👨‍🏫',color:'#74b9ff',cat:'Teacher',bio:'Mr Charles. Respected staff member. Helps in teaching and all PEFA activities.'},
+{name:'Teacher Part Time',role:'Part-Time Teacher',job:'Part-Time Teacher • Helps When Needed',points:800,ava:'⏰',color:'#a29bfe',cat:'Teacher',bio:'Our Part-Time Teacher. Comes to help when we need extra support. Always ready to teach!'},
+{name:'Johannes Gor',role:'Our Cook',job:'Cook • Makes Delicious Food',points:900,ava:'🍳',color:'#ff7675',cat:'Support',bio:'Johannes Gor - Our Cook! Makes the best food for everyone. No one goes hungry when Johannes is cooking!'},
+{name:'Felix',role:'Our Cook',job:'Cook • Makes Delicious Food',points:880,ava:'🍲',color:'#00b894',cat:'Support',bio:'Felix - Our Cook! Always smiling, always cooking tasty food for the family. We love Felix food!'},
+/* CODERS */
+{name:'Taphy Samson',role:'Founder & Full Stack',job:'HTML • CSS • JS • Python',points:1240,ava:'👑',color:'#ffcc00',cat:'Coder',bio:'Founder of Taphy Coders. Built 50+ websites. Mentor to all members.'},
+{name:'Ryan Batel',role:'Vice Leader • Frontend',job:'React • HTML • CSS',points:980,ava:'⚡',color:'#00a651',cat:'Coder',bio:'Vice Leader. Best at Frontend design.'},
+{name:'Chrispine Junior',role:'Backend Developer',job:'Python • Database',points:890,ava:'⚙️',color:'#563d7c',cat:'Coder',bio:'Backend master. Handles databases.'},
+{name:'Phill Nevill',role:'Frontend Developer',job:'HTML • CSS • JS',points:850,ava:'🎨',color:'#d62976',cat:'Coder',bio:'Creative frontend dev. Loves colors.'},
+{name:'Favour David',role:'UI/UX Designer',job:'Figma • Design • CSS',points:820,ava:'✨',color:'#f1e05a',cat:'Coder',bio:'Design queen. Makes UI look amazing!'},
+{name:'Humphrey Ogolla',role:'Backend Developer',job:'Python • PHP • MySQL',points:780,ava:'💻',color:'#e34c26',cat:'Coder',bio:'Strong backend skills.'},
+{name:'Winnie Grace',role:'Frontend Developer',job:'HTML • CSS • JS',points:760,ava:'🌸',color:'#ff6b9d',cat:'Coder',bio:'Frontend star. Very creative.'},
+{name:'Sarahi Harun',role:'Designer & Frontend',job:'CSS • Design • JS',points:740,ava:'🌙',color:'#a29bfe',cat:'Coder',bio:'Design + Code. Beautiful websites.'},
+{name:'Brian Kipkoech',role:'Game Developer',job:'Game • JS • Canvas',points:720,ava:'🎮',color:'#74b9ff',cat:'Coder',bio:'Game dev expert. Built Beach Buggy style games!'},
+{name:'Ishmael Ochieng',role:'Backend Developer',job:'Python • API',points:700,ava:'🔧',color:'#55efc4',cat:'Coder',bio:'API and backend specialist.'},
+{name:'Martin Max',role:'Full Stack Developer',job:'HTML • JS • Python',points:680,ava:'🚀',color:'#ff7675',cat:'Coder',bio:'Full stack. Can do everything!'},
+{name:'Harry Junior',role:'Frontend Developer',job:'HTML • CSS',points:640,ava:'⚽',color:'#00b894',cat:'Coder',bio:'Young talent. Football + Coding.'},
+{name:'Rooney Junior',role:'Game Developer',job:'Game • JS',points:620,ava:'🏆',color:'#fdcb6e',cat:'Coder',bio:'Game lover. Wants to build next FIFA!'},
+{name:'Clinton',role:'Backend Developer',job:'Python • Database',points:600,ava:'💾',color:'#6c5ce7',cat:'Coder',bio:'Database expert. Quiet but smart.'},
+{name:'Sheldon Ochieng',role:'Frontend Developer',job:'HTML • CSS • JS',points:580,ava:'🧠',color:'#e17055',cat:'Coder',bio:'Smart coder. Loves puzzles.'},
+{name:'Angela',role:'Designer & Frontend',job:'Design • CSS • HTML',points:560,ava:'💖',color:'#fd79a8',cat:'Coder',bio:'Designer. Makes everything beautiful!'},
+{name:'Robin Van Persie',role:'New Member • Learner',job:'Learning HTML • CSS',points:100,ava:'✨',color:'#00ff88',cat:'Coder',isNew:true,bio:'Welcome! Newest member! Future star! 🌟'},
+];
+let currentFilter='All';
+function render(){
+  let filtered = currentFilter=='All' ? people : people.filter(p=>p.cat==currentFilter);
+  document.getElementById('memberCount').innerText=filtered.length;
+  document.getElementById('totalPeople').innerText=people.length;
+  let html='';
+  filtered.forEach(p=>{
+    let idx=people.indexOf(p);
+    let cls='card';
+    if(p.isLate) cls+=' late';
+    if(p.isNew) cls+=' new';
+    if(p.cat=='MD') cls+=' md';
+    if(p.cat=='Leadership') cls+=' director';
+    if(p.isBishop) cls+=' bishop';
+    html+='<div class="'+cls+'" onclick="openProfile('+idx+')"><div class="ava" style="background:'+p.color+'">'+p.ava+'</div><h3>'+p.name+'</h3><div class="role">'+p.role+'</div><div class="skill">'+p.job+'</div><div class="tag">⭐ '+(p.isLate?'Forever Loved':p.points+' pts')+'</div><button>'+(p.isLate?'🕯️ Remember':p.isBishop?'⛪ View Bishop →':'View Profile →')+'</button></div>';
+  });
+  document.getElementById('peopleGrid').innerHTML=html;
+}
+function setFilter(cat,el){
+  currentFilter=cat;
+  document.querySelectorAll('.filter').forEach(f=>f.classList.remove('active'));
+  el.classList.add('active');
+  render();
+}
+function doSearch(){
+  let q=document.getElementById('searchInput').value.toLowerCase();
+  if(!q){ render(); return; }
+  let filtered=people.filter(p=>p.name.toLowerCase().includes(q)||p.role.toLowerCase().includes(q)||p.job.toLowerCase().includes(q));
+  let html='';
+  filtered.forEach(p=>{
+    let idx=people.indexOf(p);
+    html+='<div class="card" onclick="openProfile('+idx+')"><div class="ava" style="background:'+p.color+'">'+p.ava+'</div><h3>'+p.name+'</h3><div class="role">'+p.role+'</div><div class="skill">'+p.job+'</div><button>View Profile →</button></div>';
+  });
+  if(filtered.length==0) html='<p style="grid-column:span 2;text-align:center;color:#aaa;padding:20px">No person found for "'+q+'"</p>';
+  document.getElementById('peopleGrid').innerHTML=html;
+  document.getElementById('memberCount').innerText=filtered.length;
+}
+function openProfile(i){
+  let p=people[i];
+  let extra = p.isLate ? '<p style="background:#ffcc00;color:#111;padding:10px;border-radius:10px;font-weight:bold">🕊️ Rest In Peace MD Ann<br>We love you. We miss you. Forever in our hearts.</p>' : p.isBishop ? '<div style="display:flex;gap:8px;margin-top:12px"><button style="background:#ffcc00;color:#111;flex:1" onclick="alert(\'End Year Convention 23-29 Nov 2026 - Bishop Jack Ayieko Convener! 🙏\')">📅 Convention Info</button><button style="background:#25d366;color:white;flex:1" onclick="alert(\'Blessings from Bishop Jack! 🙏\')">🙏 Blessings</button></div>' : '<div style="display:flex;gap:8px;margin-top:12px"><button style="background:#25d366;color:white;flex:1" onclick="alert(\'WhatsApp to '+p.name+': Hello! 👋\')">💬 WhatsApp</button><button style="background:#ffcc00;color:#111;flex:1" onclick="alert(\'Following '+p.name+'! ✅\')">+ Follow</button></div>';
+  document.getElementById('profileContent').innerHTML='<div style="font-size:70px;width:90px;height:90px;background:'+p.color+';border-radius:50%;display:flex;align-items:center;justify-content:center;margin:auto">'+p.ava+'</div><h2 style="margin:10px 0 4px">'+p.name+'</h2><p style="color:#ffcc00;font-weight:bold">'+p.role+'</p><p style="color:#aaa;font-size:13px;margin:8px 0">'+p.job+'</p><p style="line-height:1.6;margin:10px 0">'+p.bio+'</p><p style="background:#222;padding:10px;border-radius:10px">⭐ Points: <b style="color:#00ff88">'+(p.isLate?'Forever Loved':p.points)+'</b> • PEFA Homabay Family</p>'+extra;
+  document.getElementById('profileModal').style.display='flex';
+}
+function closeProfile(){ document.getElementById('profileModal').style.display='none'; }
+function openAdd(){ document.getElementById('addModal').style.display='flex'; }
+function closeAdd(){ document.getElementById('addModal').style.display='none'; }
+function addPerson(){
+  let name=document.getElementById('newName').value.trim();
+  if(!name){ alert('Write name first!'); return; }
+  let role=document.getElementById('newRole').value;
+  let job=document.getElementById('newJob').value || role;
+  people.push({name:name,role:role,job:job,points:50,ava:'👨‍💻',color:'#ffcc00',cat:role,bio:'New member of PEFA Homabay Family! Welcome! 🎉',isNew:true});
+  document.getElementById('addResult').innerText='✅ '+name+' added! Welcome!';
+  setTimeout(()=>{ closeAdd(); render(); document.getElementById('addResult').innerText=''; },1200);
+}
+render();
+</script>
+</body>
+</html>
